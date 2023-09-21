@@ -7,14 +7,15 @@ import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
 import styles from './page.module.css';
 import { createProductAction, imageUploadAction } from '@/service/product';
+import { IsubmitValue } from '@/types/dashboard';
 
 const Page = () => {
 
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm<IsubmitValue>();
 
     const router = useRouter();
 
-    const onFinish = (value: any) => {
+    const onFinish = (value: IsubmitValue) => {
 
         const formData = new FormData()
 

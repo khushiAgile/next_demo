@@ -59,6 +59,12 @@ interface Image {
 }
 
 export interface IImageAdd {
-    files: File[];
+    files: File;
     module_name: string;
+}
+export interface IsubmitValue {
+    image: File[]
+    description: string;
+    point: number;
+    productName: string;
 }
