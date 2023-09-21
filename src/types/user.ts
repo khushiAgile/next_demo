@@ -29,6 +29,12 @@ export interface ICreateUserApiRes {
     data: Data;
 }
 
+export interface IUpdateUserApiRes {
+    status: number;
+    message: string;
+    data: {};
+}
+
 export interface ICreateUser {
     userName: string;
     mobileNo: string;
