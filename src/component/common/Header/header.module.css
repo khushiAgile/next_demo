@@ -1,0 +1,53 @@
+/* styles/AdminLayout.module.css */
+
+.admin_layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.admin_nav {
+    flex: 0 0 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+}
+
+.admin_nav ul {
+    list-style: none;
+    padding: 20px 0 0 0;
+}
+
+.admin_nav li {
+    margin-bottom: 10px;
+}
+
+.admin_nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin_content {
+    flex-grow: 1;
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contain {
+    padding: 20px;
+
+}
+
+/* Add more styles as needed */

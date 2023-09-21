@@ -1,0 +1,30 @@
+.inputField {
+    padding: 10px 5px;
+    margin: 5px 0 10px 0;
+    width: 300px;
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.errorClass {
+    color: crimson;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.submitBtn {
+    background-color: cornflowerblue;
+    padding: 10px;
+    font-size: medium;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.userForm {
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+}
